@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Sign In Form</title>
+        <link rel="stylesheet" href="main.css">
+        <scriptsr
+
+    </head>
+    <body>
+        <div class="containner"></div>
+        <div class="form-box">
+            <h1>Sign UP</h1>
+            <fomr>
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="Email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="Password" placeholder="Password">
+                            </div>
+                            <p>Lost Password<a href="#">Click Here!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signUp"></button>
+                    <button type="button" id="signin"></button>
+                </div>
+            </form>
+        </div>
+        <script>
+            let SignupBtn = document.getElementById("signupBtn");
+            let signinBtn = document.getElementById("signupBtn");
+            let Namefield = document.getElementById("signupBtn");
+            let title = document.getElementById("title");
+
+            signinbtn.onclick = function(){
+                namefield.style.maxheight = "0";
+                title.innerHTML = "Signin";
+                SignupBtn.classList.add("disable");
+                signinBtn.classList.remove("disable");
+            }
+            signupbtn.onclick = function(){
+                namefield.style.maxheight = "0";
+                title.innerHTML = "Signin";
+                SignupBtn.classList.add("disable");
+                signinBtn.classList.remove("disable");
+            }
+        </script>
+        </body>
+        </html>
